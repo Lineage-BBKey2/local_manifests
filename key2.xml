@@ -18,5 +18,5 @@
     <remove-project path="frameworks/base"/>
     <project name="Lineage-BBKey2LE/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-22.2" />
     <remove-project path="frameworks/native"/>
-    <project name="Lineage-BBKey2LE/android_frameworks_native" path="frameworks/base" remote="github" revision="lineage-22.2" />
+    <project name="Lineage-BBKey2LE/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-22.2" />
 </manifest>
