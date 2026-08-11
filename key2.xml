@@ -5,10 +5,13 @@
     <project name="Lineage-BBKey2/android_device_blackberry_athena" path="device/blackberry/athena" remote="github" revision="lineage-22.2-kernel-4.19" />
     <project name="Lineage-BBKey2/android_device_blackberry_luna" path="device/blackberry/luna" remote="github" revision="lineage-22.2-kernel-4.19" />
 
-    <!-- blobz -->
+    <!-- vendor repos -->
     <project name="Lineage-BBKey2/android_vendor_blackberry_sdm660-common" path="vendor/blackberry/sdm660-common" remote="github" revision="lineage-22.2-kernel-4.19" />
     <project name="Lineage-BBKey2/android_vendor_blackberry_athena" path="vendor/blackberry/athena" remote="github" revision="lineage-22.2-kernel-4.19" />
     <project name="Lineage-BBKey2/android_vendor_blackberry_luna" path="vendor/blackberry/luna" remote="github" revision="lineage-22.2-kernel-4.19" />
+    <project name="Lineage-BBKey2/android_vendor_iusmac_RevampedFMRadio" path="vendor/iusmac/RevampedFMRadio" remote="github" revision="qcom" />
+    <remove-project path="vendor/qcom/opensource/commonsys/fm"/>
+    <project name="Lineage-BBKey2/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="github" revision="lineage-22.2" />
 
     <!-- kernel -->
     <project name="Lineage-BBKey2/android_kernel_blackberry_sdm660-4p19" path="kernel/blackberry/sdm660-4p19" remote="github" revision="lineage-22.2" />
