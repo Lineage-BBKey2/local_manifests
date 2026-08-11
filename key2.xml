@@ -30,4 +30,6 @@
     <!-- packages -->
     <remove-project path="packages/modules/Bluetooth"/>
     <project name="Lineage-BBKey2/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="github" revision="lineage-22.2" />
+    <remove-project path="packages/apps/Trebuchet"/>
+    <project name="Lineage-BBKey2/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="github" revision="lineage-22.2" />
 </manifest>
