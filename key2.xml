@@ -18,12 +18,10 @@
 
     <!-- hardware -->
     <project name="Lineage-BBKey2/android_hardware_blackberry" path="hardware/blackberry" remote="github" revision="lineage-22.2" />
-    <remove-project path="hardware/qcom-caf/msm8998/audio" />
-    <project name="Lineage-BBKey2/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="github" revision="lineage-22.2-caf-msm8998" />
-    <remove-project path="hardware/qcom-caf/msm8998/display" />
-    <project name="Lineage-BBKey2/android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="github" revision="lineage-22.2-caf-msm8998" />
-    <!-- Use the upstream SDM660 media implementation with the msm8998 CAF path. -->
-    <extend-project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" revision="lineage-22.2-caf-sdm660" />
+    <remove-project path="hardware/qcom-caf/sdm660/audio" />
+    <project name="Lineage-BBKey2/android_hardware_qcom_audio" path="hardware/qcom-caf/sdm660/audio" remote="github" revision="lineage-22.2-caf-sdm660" />
+    <remove-project path="hardware/qcom-caf/sdm660/display" />
+    <project name="Lineage-BBKey2/android_hardware_qcom_display" path="hardware/qcom-caf/sdm660/display" remote="github" revision="lineage-22.2-caf-sdm660" />
 
     <!-- framework -->
     <remove-project path="frameworks/base"/>
