@@ -44,4 +44,8 @@
     <project name="Lineage-BBKey2/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="github" revision="lineage-22.2" />
     <remove-project path="packages/providers/DownloadProvider"/>
     <project name="Lineage-BBKey2/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="github" revision="lineage-22.2" />
+
+    <!-- recovery -->
+    <remove-project path="bootable/recovery"/>
+    <project name="Lineage-BBKey2/android_bootable_recovery" path="bootable/recovery" remote="github" revision="lineage-22.2" />
 </manifest>
