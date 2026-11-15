@@ -18,6 +18,8 @@
 
     <!-- hardware -->
     <project name="Lineage-BBKey2/android_hardware_blackberry" path="hardware/blackberry" remote="github" revision="lineage-22.2" />
+    <remove-project path="hardware/interfaces" />
+    <project name="Lineage-BBKey2/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-22.2" />
     <remove-project path="hardware/qcom-caf/sdm660/audio" />
     <project name="Lineage-BBKey2/android_hardware_qcom_audio" path="hardware/qcom-caf/sdm660/audio" remote="github" revision="lineage-22.2-caf-sdm660" />
     <remove-project path="hardware/qcom-caf/sdm660/display" />
@@ -34,8 +36,12 @@
     <!-- packages -->
     <remove-project path="packages/apps/Aperture"/>
     <project name="Lineage-BBKey2/android_packages_apps_Aperture" path="packages/apps/Aperture" remote="github" revision="lineage-22.2" />
+    <remove-project path="packages/apps/LineageParts"/>
+    <project name="Lineage-BBKey2/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="lineage-22.2" />
     <remove-project path="packages/apps/Settings"/>
     <project name="Lineage-BBKey2/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lineage-22.2" />
+    <remove-project path="packages/apps/SettingsIntelligence"/>
+    <project name="Lineage-BBKey2/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="lineage-22.2" />
     <remove-project path="packages/apps/Trebuchet"/>
     <project name="Lineage-BBKey2/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="github" revision="lineage-22.2" />
     <remove-project path="packages/inputmethods/LatinIME"/>
