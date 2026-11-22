@@ -40,6 +40,8 @@
     <project name="Lineage-BBKey2/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="github" revision="lineage-22.2" />
     <remove-project path="packages/apps/Trebuchet"/>
     <project name="Lineage-BBKey2/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="github" revision="lineage-22.2" />
+    <remove-project path="packages/apps/Updater"/>
+    <project name="Lineage-BBKey2/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-22.2" />
     <remove-project path="packages/inputmethods/LatinIME"/>
     <project name="Lineage-BBKey2/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="lineage-22.2" />
     <remove-project path="packages/modules/Bluetooth"/>
